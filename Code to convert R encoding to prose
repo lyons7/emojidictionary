@@ -1,4 +1,4 @@
-## Processing the data
+## Processing the data.
 Let's say you just mined some posts from twitter using the twitteR package and 
 you have a list of tweets. Lists are very difficult to deal with in R, so you convert this into a data frame:
 
