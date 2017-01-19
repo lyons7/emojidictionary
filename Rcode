@@ -1,0 +1,69 @@
+## Processing the data
+Let's say you just mined some posts from twitter using the twitteR package and 
+you have a list of tweets. Lists are very difficult to deal with in R, so you convert this into a data frame:
+
+```{r, echo=TRUE}
+geoDF<-twListToDF(geo)
+```
+
+## Processing the data
+Chances are there will be emojis in your Twitter data. You can 'transform' these emojis into prose using this code as 
+well as a [CSV file](http://publish.illinois.edu/katelyons/resources/) I've put together of what all of the emojis look 
+like in R. (The idea for this comes from [Jessica Peterka-Bonetta's work](http://opiateforthemass.es/articles/emoticons-in-R/) 
+-- she has a list of emojis as well, but it does not include the newest batch of emojis nor the different skin color options 
+for human-based emojis). If you use this emoji list for your own research, please make sure to acknowledge both myself 
+and Jessica.
+
+## Processing the data
+Load in the CSV file. You want to make sure it is located in the correct working directory so R can find it when you 
+tell it to read it in.
+```{r, echo=TRUE}
+emoticons <- read.csv("Decoded Emojis Col Sep.csv", header = T)
+```
+To transform the emojis, you first need to transform the tweet data into ASCII:
+```{r, echo=TRUE}
+geoDF$text <- iconv(geoDF$text, from = "latin1", to = "ascii", 
+                    sub = "byte")
+```
+
+## Processing the data
+To 'count' the emojis you do a find and replace using the CSV file of 'Decoded Emojis' as a reference. Here I am using the 
+[DataCombine package](http://www.inside-r.org/packages/cran/DataCombine/docs/FindReplace). What this does is identifies 
+emojis in the tweeted Instagram posts and then replaces them with a prose version. I used whatever description pops up when 
+hovering one's cursor over an emoji on an Apple emoji keyboard. If not completely the same as other platforms, it provides 
+enough information to find the emoji in question if you are not sure which one was used in the post.
+
+```{r, echo=TRUE}
+emojireplace <- FindReplace(data = geoDF, Var = "text", 
+                            replaceData = emoticons,
+                       from = "R_Encoding", to = "Name", 
+                       exact = FALSE)
+```
+
+## Processing the data
+Now might be a good time to save this file. I save it in a CSV format with the date of when I collected the posts.
+
+```{r, echo=TRUE}
+write.csv(emojireplace,file=paste("ALL",Sys.Date(),".csv"))
+```
+
+## Processing the data
+Now you have a data frame which you can manipulate in various ways. For my research, I'm just interested in posts that have 
+occured on Instagram. (Why not just access them via Instagram's API you ask? Long story short: they are very *very* 
+conservative about providing access for academic research). I've found a work-around which is filtering mined tweets by 
+those that have Instagram as a source:
+
+```{r, echo=TRUE}
+data <- emojireplace[emojireplace$statusSource == 
+        "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>", ]
+
+#Save this file
+write.csv(data,file=paste("INSTA",Sys.Date(),".csv"))
+```
+
+## A note about the data
+**Important**: Obviously, data collected this way are not representative of all Instagram posts made in the 
+Mission District (as we depend on people who cross-post to Twitter which is most likely the minority of Mission District 
+Instagrammers) *however* this is an important point about any data obtained via social media: it's never truly 
+representative. Partly because individuals must be assumed to be selective when they post, as posting is an inherently 
+subjective process, *and* not everyone is active on social media. 
