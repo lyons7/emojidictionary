@@ -14,5 +14,4 @@ I have also included R code modified from the links provided below from Peterka-
 If you use this for your own work please cite Kate Lyons (me) and also mention Jessica Peterka-Bonetta
 (see https://github.com/today-is-a-good-day/Emoticons/blob/master/emDict.csv and 
 http://opiateforthemass.es/articles/emoticons-in-R/) <- this is where I got the idea from, but the list available here doesn't 
-have ALL the emojis or skin tones so I made one of my own. I haven't updated it with the MOST recent one, but am working on
-that at the moment.
+have ALL the emojis or skin tones so I made one of my own. The current list has all of the emojis included in the past two recent updates (including all new female emojis / male emojis + other new ones like the avocado emoji, etc.)
