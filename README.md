@@ -1,7 +1,7 @@
 # emojidictionary
 A dictionary of emojis with corresponding R encoding to enable identification of emojis in mined social media data in R!
 I have included in this repository the CSV file with the emoji name (e.g. "FACEWITHTEARSOFJOY") and the corresponding R
-encoding, so you may identify emojis in your mined social media text and include them in different analyses. The prose
+encoding **and now with the Unicode codepoint too!**, so you may identify emojis in your mined social media text and include them in different analyses. The prose
 emoji name in the CSV file conveniently has spaces on each side of the emoji name (e.g. " FACEWITHTEARSOFJOY ") so if emojis
 are right next to other words they won't be smushed together and also emoji names themselves have no spaces if the name of the
 emoji is longer than one word. I did this to make text analyses such as sentiment analysis and topic modeling possible without
