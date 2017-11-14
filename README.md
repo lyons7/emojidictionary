@@ -15,4 +15,4 @@ I have also included R code modified from the links provided below from Peterka-
 
 If you use this for your own work please cite Kate Lyons (me) and also mention Jessica Peterka-Bonetta
 (see [here](https://github.com/today-is-a-good-day/Emoticons/blob/master/emDict.csv) and [here](http://opiateforthemass.es/articles/emoticons-in-R/)) <- this is where I got the idea from, but the list available here doesn't 
-have ALL the emojis or skin tones so I made one of my own. The current list has all of the emojis included in the [most recent updates](http://unicode.org/emoji/charts/emoji-released.html).
+have ALL the emojis or skin tones so I made one of my own. The current list has all of the emojis included in the [most recent update](http://unicode.org/emoji/charts/emoji-released.html).
