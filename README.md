@@ -1,4 +1,5 @@
 # emojidictionary
+**NOW UPDATED WITH EMOJI 5.0 / UNICODE 10.0!**
 A dictionary of emojis with corresponding R encoding to enable identification of emojis in mined social media data in R!
 I have included in this repository the CSV file with the emoji name (e.g. "FACEWITHTEARSOFJOY") and the corresponding R
 encoding **and now with the Unicode codepoint too!**, so you may identify emojis in your mined social media text and include them in different analyses. The prose
