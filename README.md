@@ -14,6 +14,5 @@ I have also included R code modified from the links provided below from Peterka-
 **IMPORTANT NOTE** As of now, the CSV file has the skin color identifications as separate from the emoji itself. For my research questions, it made more sense to keep color and emoji separate (I wanted to get an overall feel for what emojis were most present in a relatively small data set, so I didn't want "INFORMATIONDESKPERSONCOL2" and "INFORMATIONDESKPERSONCOL3" counted as separate things. You can modify this in the CSV file if you want skin color and emoji to be counted together.
 
 If you use this for your own work please cite Kate Lyons (me) and also mention Jessica Peterka-Bonetta
-(see https://github.com/today-is-a-good-day/Emoticons/blob/master/emDict.csv and 
-http://opiateforthemass.es/articles/emoticons-in-R/) <- this is where I got the idea from, but the list available here doesn't 
-have ALL the emojis or skin tones so I made one of my own. The current list has all of the emojis included in the past two recent updates (including all new female emojis / male emojis + other new ones like the avocado emoji, etc.)
+(see [here](https://github.com/today-is-a-good-day/Emoticons/blob/master/emDict.csv) and [here](http://opiateforthemass.es/articles/emoticons-in-R/)) <- this is where I got the idea from, but the list available here doesn't 
+have ALL the emojis or skin tones so I made one of my own. The current list has all of the emojis included in the [most recent updates](http://unicode.org/emoji/charts/emoji-released.html).
