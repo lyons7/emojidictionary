@@ -1649,11 +1649,6 @@ COLFIVEGUARDSMAN ,<ed><a0><bd><ed><b2><82><ed><a0><bc><ed><bf><bf>,U+1F482 U+1F3
  FLAGOFYEMEN ,<ed><a0><bc><ed><b7><be><ed><a0><bc><ed><b7><aa>,U+1F1FE U+1F1EA,2616
  FLAGOFZAMBIA ,<ed><a0><bc><ed><b7><bf><ed><a0><bc><ed><b7><b2>,U+1F1FF U+1F1F2,2619
  FLAGOFZIMBABWE ,<ed><a0><bc><ed><b7><bf><ed><a0><bc><ed><b7><bc>,U+1F1FF U+1F1FC,2620
- COLONE ,<ed><a0><bc><ed><bf><bb>,U+1F3FB,NA
- COLTWO ,<ed><a0><bc><ed><bf><bc>,U+1F3FC,NA
- COLTHREE ,<ed><a0><bc><ed><bf><bd>,U+1F3FD,NA
- COLFOUR ,<ed><a0><bc><ed><bf><be>,U+1F3FE,NA
- COLFIVE ,<ed><a0><bc><ed><bf><bf>,U+1F3FF,NA
  MANSHRUGGING ,<ed><a0><be><ed><b4><b7><e2><80><8d><e2><99><82><ef><b8><8f>,U+1F937 U+200D U+2642 U+FE0F,786
  COLONEMANSHRUGGING ,<ed><a0><be><ed><b4><b7><ed><a0><bc><ed><bf><bb><e2><80><8d><e2><99><82><ef><b8><8f>,U+1F937 U+1F3FB U+200D U+2642 U+FE0F,787
  COLTWOMANSHRUGGING ,<ed><a0><be><ed><b4><b7><ed><a0><bc><ed><bf><bc><e2><80><8d><e2><99><82><ef><b8><8f>,U+1F937 U+1F3FC U+200D U+2642 U+FE0F,788
@@ -2205,7 +2200,7 @@ COLFIVEGUARDSMAN ,<ed><a0><bd><ed><b2><82><ed><a0><bc><ed><bf><bf>,U+1F482 U+1F3
  STARSTRUCK ,<ed><a0><be><ed><b4><a9>,U+1F929,
  FACEWITHRAISEDEYEBROW ,<ed><a0><be><ed><b4><a8>,U+1F928,
  EXPLODINGHEAD ,<ed><a0><be><ed><b4><af>,U+1F92F,
- CRAZYFACE ,<ed><a0><be><ed><b4><aa>,ÊU+1F92A,
+ CRAZYFACE ,<ed><a0><be><ed><b4><aa>,U+1F92A,
  FACEWITHSYMBOLSOVERMOUTH ,<ed><a0><be><ed><b4><ac>,U+1F92C,
  FACEVOMITING ,<ed><a0><be><ed><b4><ae>,U+1F92E,
  SHUSHINGFACE ,<ed><a0><be><ed><b4><ab>,U+1F92B,
@@ -2235,12 +2230,12 @@ COLFIVEGUARDSMAN ,<ed><a0><bd><ed><b2><82><ed><a0><bc><ed><bf><bf>,U+1F482 U+1F3
  COLTHREEWOMANWITHHEADSCARF ,<ed><a0><be><ed><b7><95><ed><a0><bc><ed><bf><bd>,U+1F9D5 U+1F3FD,
  COLFOURWOMANWITHHEADSCARF ,<ed><a0><be><ed><b7><95><ed><a0><bc><ed><bf><be>,U+1F9D5 U+1F3FE,
  COLFIVEWOMANWITHHEADSCARF ,<ed><a0><be><ed><b7><95><ed><a0><bc><ed><bf><bf>,U+1F9D5 U+1F3FF,
- BEARDEDPERSON ,<ed><a0><be><ed><b7><94>,ÊU+1F9D4,
- COLONEBEARDEDPERSON ,<ed><a0><be><ed><b7><94><ed><a0><bc><ed><bf><bb>,ÊU+1F9D4 U+1F3FB,
- COLTWOBEARDEDPERSON ,<ed><a0><be><ed><b7><94><ed><a0><bc><ed><bf><bc>,ÊU+1F9D4 U+1F3FC,
- COLTHREEBEARDEDPERSON ,<ed><a0><be><ed><b7><94><ed><a0><bc><ed><bf><bd>,ÊU+1F9D4 U+1F3FD,
- COLFOURBEARDEDPERSON ,<ed><a0><be><ed><b7><94><ed><a0><bc><ed><bf><be>,ÊU+1F9D4 U+1F3FE,
- COLFIVEBEARDEDPERSON ,<ed><a0><be><ed><b7><94><ed><a0><bc><ed><bf><bf>,ÊU+1F9D4 U+1F3FF,
+ BEARDEDPERSON ,<ed><a0><be><ed><b7><94>,U+1F9D4,
+ COLONEBEARDEDPERSON ,<ed><a0><be><ed><b7><94><ed><a0><bc><ed><bf><bb>,U+1F9D4 U+1F3FB,
+ COLTWOBEARDEDPERSON ,<ed><a0><be><ed><b7><94><ed><a0><bc><ed><bf><bc>,U+1F9D4 U+1F3FC,
+ COLTHREEBEARDEDPERSON ,<ed><a0><be><ed><b7><94><ed><a0><bc><ed><bf><bd>,U+1F9D4 U+1F3FD,
+ COLFOURBEARDEDPERSON ,<ed><a0><be><ed><b7><94><ed><a0><bc><ed><bf><be>,U+1F9D4 U+1F3FE,
+ COLFIVEBEARDEDPERSON ,<ed><a0><be><ed><b7><94><ed><a0><bc><ed><bf><bf>,U+1F9D4 U+1F3FF,
  BREASTFEEDING ,<ed><a0><be><ed><b4><b1>,U+1F931,
  COLONEBREASTFEEDING ,<ed><a0><be><ed><b4><b1><ed><a0><bc><ed><bf><bb>,U+1F931 U+1F3FB,
  COLTWOBREASTFEEDING ,<ed><a0><be><ed><b4><b1><ed><a0><bc><ed><bf><bc>,U+1F931 U+1F3FC,
