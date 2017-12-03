@@ -1,4 +1,4 @@
-Name,R_Encoding,Codepoint,Number
+name,r_encoding,codepoint,number
  GRINNINGFACE ,<ed><a0><bd><ed><b8><80>,U+1F600,1
  GRIMACINGFACE ,<ed><a0><bd><ed><b8><ac>,U+1F62C,62
  GRINNINGFACEWITHSMILINGEYES ,<ed><a0><bd><ed><b8><81>,U+1F601,2
